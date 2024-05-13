@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoCoffee - Produk</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card-img-custom {
+      height: 200px; 
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body style="background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">JoCoffee</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.info.html">Produk</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <h2 class="text-center mb-4 text-white">Produk Kami</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="asset/americano.jpg" class="card-img-top" alt="Americano">
+                            <div class="card-body">
+                                <h5 class="card-title">Americano</h5>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#americanoModal">
+                                    Lihat Penjelasan
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                 
+                   
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="asset/cappucino.jpg" class="card-img-top" alt="Cappucino">
+                            <div class="card-body">
+                                <h5 class="card-title">Cappucino</h5>
+                           
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cappucinoModal">
+                                    Lihat Penjelasan
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="asset/latte.jpg" class="card-img-top" alt="Latte">
+                            <div class="card-body">
+                                <h5 class="card-title">Latte</h5>                            
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#latteModal">
+                                    Lihat Penjelasan
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="asset/macchiato.jpg" class="card-img-top" alt="Macchiato">
+        <div class="card-body">
+            <h5 class="card-title">Macchiato</h5>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#macchiatoModal">
+                Lihat Penjelasan
+            </button> 
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="asset/espresso.jpg" class="card-img-top" alt="Espresso">
+        <div class="card-body">
+            <h5 class="card-title">Espresso</h5>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#espressoModal">
+                Lihat Penjelasan
+            </button> 
+        </div>
+    </div>
+</div>
+
+<!-- Mocha Card -->
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="asset/mocha.jpg" class="card-img-top" alt="Mocha">
+        <div class="card-body">
+            <h5 class="card-title">Mocha</h5>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mochaModal">
+                Lihat Penjelasan
+            </button> 
+        </div>
+    </div>
+</div>
+
+<!-- Macchiato Modal -->
+<div class="modal fade" id="macchiatoModal" tabindex="-1" role="dialog" aria-labelledby="macchiatoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="macchiatoModalLabel">Penjelasan Kopi Macchiato</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Ini adalah penjelasan tentang kopi Macchiato.</p>
+                <p>Kopi Macchiato adalah minuman kopi yang berasal dari kata Italia yang berarti "mengotori" atau "menandai." Ini adalah espresso yang ditandai dengan sedikit susu atau busa susu di atasnya. Minuman ini memiliki rasa kopi yang kuat dengan sentuhan manis dari susu, tetapi proporsi susu yang lebih sedikit dibandingkan dengan minuman kopi yang lebih creamy seperti latte atau cappuccino. Kopi Macchiato cocok bagi mereka yang menyukai rasa kopi yang kental namun ingin sedikit sentuhan susu untuk menyeimbangkan rasa.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Espresso Modal -->
+<div class="modal fade" id="espressoModal" tabindex="-1" role="dialog" aria-labelledby="espressoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="espressoModalLabel">Penjelasan Kopi Espresso</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Ini adalah penjelasan tentang kopi Espresso.</p>
+                <p>
+                    Kopi Espresso adalah minuman kopi yang kental dan beraroma kuat, disajikan dalam porsi yang kecil. Proses pembuatannya melibatkan tekanan tinggi pada air panas yang melalui bubuk kopi yang halus. Hasilnya adalah minuman dengan rasa yang kaya, pekat, dan penuh dengan karakteristik kopi yang asli. Espresso merupakan dasar dari banyak minuman kopi lainnya, seperti cappuccino, latte, dan macchiato. Biasanya diminum secara singkat dan menjadi favorit bagi mereka yang menginginkan pengalaman kopi yang intens dan beraroma.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mocha Modal -->
+<div class="modal fade" id="mochaModal" tabindex="-1" role="dialog" aria-labelledby="mochaModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mochaModalLabel">Penjelasan Kopi Mocha</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Ini adalah penjelasan tentang kopi Mocha.</p>
+                <p>Kopi Mocha adalah minuman kopi yang memiliki kombinasi rasa kopi yang kaya dan manisnya cokelat. Ini terbuat dari campuran espresso, susu steamed, dan sirup cokelat. Mocha sering disajikan dengan whipped cream di atasnya untuk menambahkan kesan yang lebih lezat dan menggoda. Kombinasi antara rasa kopi yang kuat dan manisnya cokelat membuat Mocha menjadi pilihan yang populer bagi pecinta kopi yang juga menyukai rasa manis dari cokelat</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+    <div class="modal fade" id="cappucinoModal" tabindex="-1" role="dialog" aria-labelledby="cappucinolLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cappucinoModalLabel">Penjelasan Kopi Cappucino</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah penjelasan tentang kopi Cappucino.</p>
+                    <p>Kopi Cappuccino adalah minuman kopi yang terdiri dari satu shot espresso, lalu ditambah dengan jumlah yang sama atau sedikit lebih banyak susu steamed, dan ditutupi dengan foam susu. Proporsi yang seimbang antara espresso, susu steamed, dan foam susu memberikan cappuccino karakteristik rasa yang kuat dari espresso dengan sentuhan lembut dari susu. Foam susu yang kental di atasnya juga memberikan tekstur yang khas dan mengundang untuk dinikmati.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latte Modal -->
+    <div class="modal fade" id="latteModal" tabindex="-1" role="dialog" aria-labelledby="latteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="latteModalLabel">Penjelasan Kopi Latte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah penjelasan tentang kopi Latte.</p>
+                    <p>Kopi Latte adalah minuman kopi yang terdiri dari satu atau dua shot espresso yang dicampur dengan susu steamed (diukur dengan proporsi yang sama atau lebih banyak susu dari espresso). Hal ini menghasilkan minuman yang lembut dengan rasa kopi yang kuat namun dengan sentuhan manis dari susu. Latte sering dihias dengan foam susu di atasnya untuk memberikan sentuhan estetika.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="americanoModal" tabindex="-1" role="dialog" aria-labelledby="americanoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="americanoModalLabel">Penjelasan Kopi Americano</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah penjelasan tentang kopi Americano.</p>
+                    <p>
+                        Kopi Americano adalah minuman kopi yang terbuat dari campuran espresso dan air panas, sehingga menghasilkan rasa yang mirip dengan kopi hitam, tetapi dengan kadar kafein yang lebih rendah. Biasanya, Americano disajikan dalam cangkir kecil dan dapat diminum secara langsung atau ditambahkan dengan gula atau susu sesuai selera.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                <footer class="footer bg-accent-purple text-white text-center py-4 mt-5">
+                    <p>JoCoffee 2024 by JOIS ILHAM NOVALDI</p>
+                </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
